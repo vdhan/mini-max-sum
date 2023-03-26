@@ -1,0 +1,24 @@
+{
+  "name": "mini-max-sum",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "dev": "tsc -w",
+    "build": "tsc",
+    "clean": "tsc -b --clean",
+    "start": "node dist/index.js",
+    "test": "mocha",
+    "cover": "c8 yarn test"
+  },
+  "devDependencies": {
+    "@types/chai": "^4.3.4",
+    "@types/mocha": "^10.0.1",
+    "@types/node": "^18.15.9",
+    "c8": "^7.13.0",
+    "chai": "^4.3.7",
+    "mocha": "^10.2.0",
+    "typescript": "^5.0.2"
+  }
+}
